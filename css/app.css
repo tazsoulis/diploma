@@ -1,0 +1,137 @@
+/* STICKY FOOTER CODE */
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -148px;
+}
+#footer, .push {
+height:64px;
+
+}
+.brand{
+font-family: 'century gothic';
+text-align:center;
+font-size:14px;
+color:#FFFFFF;
+}
+.phone{
+font-family: 'comic sans';
+text-align:center;
+font-size:25px;
+color:#FFFFFF;
+}
+.call{
+font-family:'century gothic';
+font-size:14px;
+color:#FFFFFF;
+text-align:center;
+}
+.infos{
+font-family:'century gothic';
+font-size:16px;
+color:#000000;
+text-align:center;
+}
+/* .top-bar input & button size fixes */
+.top-bar input {
+	height: auto;
+	padding-top: 0.35rem;
+	padding-bottom: 0.35rem;
+	font-size: 0.75rem; 
+}
+.top-bar .button {
+	padding-top: 0.45rem;
+	11.13625;
+	margin-bottom: 0;
+	font-size: 0.75rem; 
+}
+.btn-blue {
+  background-color: #0033CC;
+}
+.btn-black{
+background-color: #333333;
+}
+.btn-blue:hover {
+  background-color: #0066FF;
+}
+#navigation-bar {
+  margin-top: 20px;
+}
+
+#footer {
+	background-color: #CECECE;
+	min-width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.price-value {
+	font-size: 15px;
+}
+.available {
+	font-size: 25px; 
+	color: #3c9a5f;
+}
+.unavailable {
+	font-size: 25px; 
+	color: #EE0000;
+}
+.s_available {
+	font-size: 15px; 
+	color: #3c9a5f;
+}
+.s_unavailable {
+	font-size: 15px; 
+	color: #EE0000;
+}
+.drop{
+	font-size: 40px; 
+	color: #FF0000;
+	cursor: pointer; 
+
+}
+#index-products li img {
+	height: 150px;
+}
+
+@media only screen {
+	
+} /* Define mobile styles */
+
+@media only screen and (max-width: 40em) { 
+	.tabs dd a {
+		padding: 0px 5px 0px 5px;
+		font-size:11px;
+	}
+	#btnBuy {
+		font-size:10px;
+		
+	}
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+@media only screen and (min-width: 40.063em) {
+	
+} /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+	.tabs dd a {
+			padding: 10px 10px 10px 10px;
+			font-size:20px;
+		}
+} /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
+
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xlarge screens */
